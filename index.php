@@ -1,4 +1,24 @@
 <?php
+	/*=======================================
+	=            Configuraciones            =
+	=======================================*/
+	/**
+	
+		TODO:
+		- Humberto Islas
+		- islas333@gmail.com
+		- El script permite revisar la existencia de archivos de una carpeta raiz, los copia a una carpeta asignada
+		- Es necesario configurar la capera de origen y la carpeta de destino
+		- El script te describe que archivos estan repetidos y te muestra el nombre de los mismos
+		- Es importante que existan las carpetas de destino si los archivos de origen estan dentro de una carpeta
+		-
+		- Al final del script te retorna el texto depurado para el correspondiente ADD y COMMIT para hacer el push a GITHUB
+	
+	 */
+	
+	
+	
+
 	$archivos = array("admin/js/custom.js","admin/admin_bloques_pyme_home.php","admin/admin_bloques_pyme_home.php","admin/admin_bloques_pyme_home.php","admin/add_mensaje_bloque_pyme_home.php","admin/include_modales_pyme_home.php","admin/show_bloques_pyme_home.php","admin/upload_imagen_pyme_home.php","admin/js/custom.js");
 	$cadenaCommit = "Titulo para el commit";
 
@@ -27,16 +47,16 @@
 	echo '<hr color="blue" size=3>';
 
 
-	$rutaAbsoluta = '/var/www/html/proyecto_para_copiar/';
-	$rutaMover = '/var/www/html/tito/proyecto_a_pegar/';
+	$rutaOrigen = '/var/www/html/proyecto_para_copiar/';
+	$rutaDestino = '/var/www/html/tito/proyecto_a_pegar/';
 	$ultimoElemento = end($nuevoArraySinDuplicados);
 
 	foreach ($nuevoArraySinDuplicados as $value) {
-		if (file_exists($rutaAbsoluta.$value)) {
-			copy($rutaAbsoluta.$value, $rutaMover.$value);
+		if (file_exists($rutaOrigen.$value)) {
+			copy($rutaOrigen.$value, $rutaDestino.$value);
 			echo "<pre>";
-			echo "Archivo copiado con exito-> ".$rutaAbsoluta.$value;
-			chmod($rutaMover.$value,0777);
+			echo "Archivo copiado con exito-> ".$rutaOrigen.$value;
+			chmod($rutaDestino.$value,0777);
 			$cadenaAdd .= ($ultimoElemento !== $value)?$value." ":$value;
 			echo "</pre>";
 			$flagExec = 1;
