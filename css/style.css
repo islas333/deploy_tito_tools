@@ -1,0 +1,21 @@
+/*Estilo de deploy*/
+
+body {
+	font-family: 'Roboto', sans-serif;	
+	color: #8E8E8E;
+}
+.deploy-home h2,h3,h4 {
+	color: #8E8E8E;
+}
+#msnArrayOriginal p {
+	height: 400px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	overflow: scroll;
+}
+#msnArrayUnico p {
+	height: 400px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	overflow: scroll;
+}
