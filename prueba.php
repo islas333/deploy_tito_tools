@@ -46,15 +46,15 @@
 		</div>
 		<div uk-grid>
 			<div class="uk-width-1-1">
-				<label class="uk-form-label" for="form-stacked-text">Define el PATH de inicio</label>
+				<label class="uk-form-label" for="form-stacked-text">Define el PATH de origen</label>
 		        <div class="uk-form-controls">
-		            <input class="uk-input" id="path-proyecto" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/tu_proyecto" value="/var/www/html/dev.visor.io/">
+		            <input class="uk-input" id="path-proyecto" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/tu_proyecto" value="/var/www/html/deploy/dev.visor.io/">
 		        </div>
 			</div>
 			<div class="uk-width-1-1">
 				<label class="uk-form-label" for="form-stacked-text">Define el PATH donde se realizara el deploy</label>
 		        <div class="uk-form-controls">
-		            <input class="uk-input" id="path-deploy" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/deploy/" value="/var/www/html/deploy/">
+		            <input class="uk-input" id="path-deploy" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/deploy/" value="/var/www/html/deploy/deploy3">
 		        </div>
 			</div>
 		</div>
@@ -149,17 +149,17 @@
 			<div class="uk-width-1-1">
 				<label class="uk-form-label" for="form-stacked-text">Define el PATH de inicio</label>
 		        <div class="uk-form-controls">
-		            <input class="uk-input" id="path-proyecto" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/tu_proyecto" value="/var/www/html/dev.visor.io/">
+		            <input class="uk-input" id="path-proyecto" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/tu_proyecto" value="/var/www/html/deploy/dev.visor.io">
 		        </div>
 			</div>
 			<div class="uk-width-1-1">
 				<label class="uk-form-label" for="form-stacked-text">Define el PATH donde se realizara el deploy</label>
 		        <div class="uk-form-controls">
-		            <input class="uk-input" id="path-deploy" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/deploy/" value="/var/www/html/deploy/">
+		            <input class="uk-input" id="path-deploy" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/deploy/" value="/var/www/html/deploy/deploy34">
 		        </div>
 			</div>
 			<div class="uk-width-1-1 uk-text-center">
-				<button class="uk-button uk-button-secondary" id="verificar-files" page="verificarFiles.php">VERIFICAR</button>
+				<button class="uk-button uk-button-secondary" id="verificar-files" page="verificarFiles.php">HACER COPIA DE ARCHIVOS</button>
 			</div>
 		</div>
 

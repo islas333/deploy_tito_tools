@@ -32,6 +32,7 @@
 		$separados = explode("/", $rutas);
 		
 
+		// Generador de carpetas
 		for ($i=0; $i < count($separados); $i++) {
 			$rutatmp .= $separados[$i]."/";
 			// echo $pathProyecto.$rutatmp;
@@ -39,11 +40,13 @@
 				$ruta .= $separados[$i]."/";
 				mkdir($pathDeploy.$ruta, 0777, true);
 				chmod($pathDeploy.$ruta, 0777);
+				// mkdir($pathDeploy.'_old'.$ruta, 0777, true);
+				// chmod($pathDeploy.'_old'.$ruta, 0777);
 			}
 		}
 
 		
-
+		// Copiar archivos de raiz a carpetas creadas
 		if (is_file($pathProyecto.$rutas)) {
 			if (copy($pathProyecto.$rutas, $pathDeploy.$rutas)) {
 				chmod($pathDeploy.$rutas, 0777);
