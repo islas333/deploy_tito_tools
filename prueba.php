@@ -6,9 +6,9 @@
 
 	include "include/funciones.php";
 
-	$bdname = "dev_visoradl";
+	$bdname = "basededatos";
 	$db = cargarMongo($bdname);
-	
+
 	$rutaDeploy = "";
 	$rutaMaster = "";
 
@@ -35,10 +35,10 @@
 </head>
 <body>
 	<div class="uk-container deploy-home">
-		
+
 		<br>
 		<h2 class="uk-heading-divider">Deploy VISOR</h2>
-		
+
 		<h3 class="uk-heading-divider">Parametros iniciales</h3>
 		<div class="uk-alert-primary" uk-alert>
 		    <a class="uk-alert-close" uk-close></a>
@@ -58,7 +58,7 @@
 		        </div>
 			</div>
 		</div>
-		
+
 		<h3 class="uk-heading-divider">Depuración de archivos</h3>
 		<div class="uk-alert-warning" uk-alert>
 		    <a class="uk-alert-close" uk-close></a>
@@ -187,7 +187,7 @@
 
 			</div>
 		</div>
-	
+
 	<br>
 	<br>
 	<hr class="uk-divider-icon">
