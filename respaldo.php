@@ -6,9 +6,9 @@
 
 	include "include/funciones.php";
 
-	$bdname = "dev_visoradl";
+	$bdname = "data_base";
 	$db = cargarMongo($bdname);
-	
+
 	$rutaDeploy = "";
 	$rutaMaster = "";
 
@@ -35,11 +35,11 @@
 </head>
 <body>
 	<div class="uk-container deploy-home">
-		
+
 		<br>
-		<h2 class="uk-heading-divider">Deploy VISOR - Respaldo SPRINT Previo</h2>
+		<h2 class="uk-heading-divider">Deploy TITO - Respaldo SPRINT Previo</h2>
 		<p>La siguiente herramienta te permite generar una copia de los archivos previos al deploy</p>
-		
+
 		<h3 class="uk-heading-divider">Parametros iniciales</h3>
 		<div class="uk-alert-primary" uk-alert>
 		    <a class="uk-alert-close" uk-close></a>
@@ -59,7 +59,7 @@
 		        </div>
 			</div>
 		</div>
-		
+
 
 		<h3 class="uk-heading-divider">Registros de archivos para la generación de copia para el Deploy</h3>
 		<div class="uk-alert-danger" uk-alert>
@@ -119,7 +119,7 @@
 
 			</div>
 		</div>
-	
+
 	<br>
 	<br>
 	<hr class="uk-divider-icon">
