@@ -48,7 +48,7 @@
 			<div class="uk-width-1-1">
 				<label class="uk-form-label" for="form-stacked-text">Define el PATH de origen</label>
 		        <div class="uk-form-controls">
-		            <input class="uk-input" id="path-proyecto" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/tu_proyecto" value="/var/www/html/deploy/dev.visor.io/">
+		            <input class="uk-input" id="path-proyecto" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/tu_proyecto" value="/var/www/html/deploy/carpeta_proyecto/">
 		        </div>
 			</div>
 			<div class="uk-width-1-1">
@@ -149,7 +149,7 @@
 			<div class="uk-width-1-1">
 				<label class="uk-form-label" for="form-stacked-text">Define el PATH de inicio</label>
 		        <div class="uk-form-controls">
-		            <input class="uk-input" id="path-proyecto" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/tu_proyecto" value="/var/www/html/deploy/dev.visor.io">
+		            <input class="uk-input" id="path-proyecto" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/tu_proyecto" value="/var/www/html/deploy/carpeta_proyecto/">
 		        </div>
 			</div>
 			<div class="uk-width-1-1">

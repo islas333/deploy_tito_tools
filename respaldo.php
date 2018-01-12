@@ -55,7 +55,7 @@
 			<div class="uk-width-1-1">
 				<label class="uk-form-label" for="form-stacked-text">Ruta donde se realiza la copia de respaldo</label>
 		        <div class="uk-form-controls">
-		            <input class="uk-input" id="path-deploy" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/deploy/" value="/var/www/html/visor.io/deploy/deploy3_respaldo/">
+		            <input class="uk-input" id="path-deploy" type="text" placeholder="Define el path a revisar, ejemplo /var/www/html/deploy/" value="/var/www/html/carpeta_proyecto/deploy/deploy3_respaldo/">
 		        </div>
 			</div>
 		</div>
