@@ -6,6 +6,8 @@
 	
 	function cargarMongo($bdname) {
 
+		// Esto no sirve de nada
+
 		$conexion = new MongoClient( "mongodb://localhost" );
 		$dbs = $conexion->listDBs();
 
