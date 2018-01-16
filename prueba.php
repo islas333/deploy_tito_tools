@@ -2,7 +2,7 @@
 
 	// Humbert Islas
 	// islas333@gmail.com
-	// Cualquier duda o comentario contactar al 
+	// Cualquier duda o comentario contactar al correo
 
 	/*==================================================
 	=            Variables de configuración            =
