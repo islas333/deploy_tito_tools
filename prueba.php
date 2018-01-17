@@ -8,10 +8,10 @@
 	=            Variables de configuración            =
 	==================================================*/
 
-	include "include/funciones.php";
+	// include "include/funciones.php";
 
-	$bdname = "basededatos";
-	$db = cargarMongo($bdname);
+	// $bdname = "basededatos";
+	// $db = cargarMongo($bdname);
 
 	$rutaDeploy = "";
 	$rutaMaster = "";
