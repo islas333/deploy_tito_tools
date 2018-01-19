@@ -26,7 +26,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Deploy Humberto</title>
+	<title>Deploy Visor Humberto</title>
 
 	<link rel="stylesheet" href="css/uikit.min.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
