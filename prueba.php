@@ -26,7 +26,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Deploy Visor Humberto</title>
+	<title>Deploy Visor</title>
 
 	<link rel="stylesheet" href="css/uikit.min.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
@@ -41,7 +41,7 @@
 	<div class="uk-container deploy-home">
 
 		<br>
-		<h2 class="uk-heading-divider">Deploy VISOR</h2>
+		<h2 class="uk-heading-divider">** Deploy VISOR **</h2>
 
 		<h3 class="uk-heading-divider">Parametros iniciales</h3>
 		<div class="uk-alert-primary" uk-alert>
