@@ -41,7 +41,7 @@
 	<div class="uk-container deploy-home">
 
 		<br>
-		<h2 class="uk-heading-divider">** Deploy VISOR **</h2>
+		<h2 class="uk-heading-divider">** Deploy VISOR con cambio 16:55**</h2>
 
 		<h3 class="uk-heading-divider">Parametros iniciales</h3>
 		<div class="uk-alert-primary" uk-alert>
